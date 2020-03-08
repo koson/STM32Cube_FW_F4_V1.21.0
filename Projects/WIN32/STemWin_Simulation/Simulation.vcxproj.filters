@@ -36,6 +36,9 @@
     <ClCompile Include="..\..\..\Middlewares\ST\STemWin\Simulation\WinMain.c">
       <Filter>Simulation</Filter>
     </ClCompile>
+    <ClCompile Include="Application\WindowDLG.c">
+      <Filter>Application</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\..\Program Files\Microsoft Visual Studio\VC98\Include\BASETSD.H">

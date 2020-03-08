@@ -21,7 +21,7 @@ Purpose     : Simple demo drawing "Hello world"
 */
 
 #include "GUI.h"
-
+#include "DIALOG.h"
 /*********************************************************************
 *
 *       Public code
@@ -32,12 +32,17 @@ Purpose     : Simple demo drawing "Hello world"
 *
 *       MainTask
 */
+
+extern WM_HWIN CreateWindow(void);
+
 void MainTask(void) {
-  GUI_Init();
-  GUI_Clear();
-  GUI_SetFont(&GUI_Font20_1);
-  GUI_DispStringAt("Hello world!", (LCD_GetXSize()-100)/2, (LCD_GetYSize()-20)/2);
-  while(1);
+	GUI_Init();
+	GUI_Clear();
+	CreateWindow();
+	//GUI_SetFont(&GUI_Font20_1);
+	//GUI_DispStringAt("Hello world!", (LCD_GetXSize() - 100) / 2, (LCD_GetYSize() - 20) / 2);
+	//GUI_DispStringAt("Hello Emwin!", (LCD_GetXSize()-100)/2, (LCD_GetYSize()-20)/3);
+	while (1);
 }
 
 /*************************** End of file ****************************/

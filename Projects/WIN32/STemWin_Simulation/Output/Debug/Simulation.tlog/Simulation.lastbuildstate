@@ -1,0 +1,2 @@
+#TargetFrameworkVersion=v4.0:PlatformToolSet=v142:EnableManagedIncrementalBuild=false:VCToolArchitecture=Native32Bit:WindowsTargetPlatformVersion=10.0
+Debug|Win32|F:\00Embedded\repositories\STM32Cube_FW_F4_V1.21.0\Projects\WIN32\STemWin_Simulation\|
